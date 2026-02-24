@@ -1,18 +1,4 @@
-#
-#
-# Config for Dynamic Post Method -> For Json format!
-#
-# Company ---> ABB
-# Link ------> https://careers.abb/widgets
-#
-# ------ IMPORTANT! ------
-# if you need return soup object:
-# you cand import from __utils -> GetHtmlSoup
-# if you need return regex object:
-# you cand import from __utils ->
-# ---> get_data_with_regex(expression: str, object: str)
-#
-#
+
 from __utils import (
     PostRequestJson,
     GetDataCurl,
